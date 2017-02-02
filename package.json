@@ -9,7 +9,7 @@
   "scripts": {
     "test": "babel-node src/test.js",
     "build": "babel src/index.js > index.js",
-    "preversion": "npm test",
+    "preversion": "npm run build && npm test",
     "postversion": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
