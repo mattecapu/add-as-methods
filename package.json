@@ -1,6 +1,6 @@
 {
   "name": "add-as-methods",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Microutil to add bound functions to a JS object",
   "main": "index.js",
   "author": "Matteo Capucci <mattecapu@live.it>",
